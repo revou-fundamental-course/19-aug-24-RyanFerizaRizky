@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Navbar-->
+    <header>
+        <img src="Revou.png" alt="School Logo" id="logo">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#facilitation">Our Programs</a></li>
+                <li><a href="#contact">Message Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Contain-->
+    <section id="home">
+        <h1>Hello, Welcome To Our Website</h1>
+        <p>Master today digital skills with industry leaders, get personalized mentorship, and access a community rich in career opportunities!</p>
+    </section>
+
+    <!--Our Facilitation-->
+    <section id="facilitation">
+        <h2>Our Programs</h2>
+        <div class="facilities">
+            <div class="facility">
+                <div class="icon"></div>
+                <p>Digital Marketing</p>
+            </div>
+            <div class="facility">
+                <div class="icon"></div>
+                <p>Data Analytics</p>
+            </div>
+            <div class="facility">
+                <div class="icon"></div>
+                <p>Product Management</p>
+            </div>
+            <div class="facility">
+                <div class="icon"></div>
+                <p>Software Engineering</p>
+            </div>
+            <div class="facility">
+                <div class="icon"></div>
+                <p>AI Academy</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Message Us-->
+    <section id="contact">
+        <form id="contactForm">
+            <h2>Message Us</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+    
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+    
+            <button type="submit">Submit</button>
+        </form>
+    
+        <div id="userInfo">
+            <p><strong>Current Time:</strong> <span id="time"></span></p>
+            <p><strong>Name:</strong> <span id="displayName"></span></p>
+            <p><strong>Email:</strong> <span id="displayEmail"></span></p>
+            <p><strong>Phone:</strong> <span id="displayPhone"></span></p>
+            <p><strong>Message:</strong> <span id="displayMessage"></span></p>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <p>Created By Ryan Feriza Rizky</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
